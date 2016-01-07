@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<title> Star Wars </title>
+	</head>
+	
+	<body>
+		<center>
+			<script type= "text/javascript"> 
+				var movie;
+				var willWatch;
+				var notWatch;
+				
+				movie = prompt("Do you plan on watching the upcoming Star Wars film in theater?")
+				if(movie == "yes")
+				{
+					willWatch = prompt("Will you watch it opening weekend");
+					
+					if(willWatch == "yes")
+					{
+						document.write("Good luck getting tickets!");
+					}
+					else
+					{
+						document.write("At least you won't fight for seats");
+					}
+				}
+				else
+				{
+					notWatch = prompt("Have you watched the original trilogy");
+					
+					if(notWatch == "yes")
+					{
+						document.write("Perhaps you'll change your mind");
+					}
+					else
+					{
+						document.write("Get on it!");
+					}
+				}
+					
+					
+				
+			</script>
+		</center>
+	</body>
+</html>
